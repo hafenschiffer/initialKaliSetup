@@ -12,6 +12,7 @@ apt-get install terminator -y
 apt-get install golang -y
 apt-get install openvas -y
 apt-get install gobuster -y
+apt-get install bridge-utils -y
 
 #Git Respounder
 cd /root/tools
@@ -41,8 +42,10 @@ mkdir /var/www/html/win
 cd /var/www/html/linux
 wget https://raw.githubusercontent.com/sleventyeleven/linuxprivchecker/master/linuxprivchecker.py
 wget https://raw.githubusercontent.com/rebootuser/LinEnum/master/LinEnum.sh
+wget https://highon.coffee/downloads/linux-local-enum.sh
 chmod +x LinEnum.sh
 chmod +x linuxprivchecker.py
+chmod +x linux-local-enum.sh
 cp -r /var/www/html/* /ftphome/
 
 #MSF DB initialization
