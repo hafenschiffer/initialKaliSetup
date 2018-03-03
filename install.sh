@@ -14,6 +14,10 @@ apt-get install openvas -y
 apt-get install gobuster -y
 apt-get install bridge-utils -y
 
+#Remove tools
+apt-get remove python-faraday -y
+apt-get purge python-faraday -y
+
 #Git Respounder
 cd /root/tools
 git clone https://github.com/maurosoria/dirsearch
