@@ -33,7 +33,7 @@ chown -R ftpuser:ftpgroup /ftphome/
 /etc/init.d/pure-ftpd restart
 
 #Enable services
-systemctl enable apache2
+systemctl start apache2
 systemctl enable postgresql
 
 #populate some files
