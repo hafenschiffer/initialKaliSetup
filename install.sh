@@ -12,7 +12,10 @@ apt-get install terminator -y
 apt-get install golang -y
 apt-get install openvas -y
 apt-get install gobuster -y
+apt-get install nfs-common -y
+apt-get install rsh-client -y
 apt-get install bridge-utils -y
+apt-get install cifs-utils -y
 
 #Remove tools
 apt-get remove python-faraday -y
@@ -54,6 +57,9 @@ cp -r /var/www/html/* /ftphome/
 
 #MSF DB initialization
 msfdb init
+
+#Update nmap scripts
+namp --script-update
 
 #unzip rockyou
 gunzip /usr/share/wordlists/rockyou.txt.gz
