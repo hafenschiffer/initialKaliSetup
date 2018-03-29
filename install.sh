@@ -4,6 +4,16 @@ apt-get update
 apt-get upgrade -y
 apt-get dist-upgrade -y
 mkdir /root/tools
+mkdir /root/tools/scripts
+
+#Create update script
+cd /root/tools/scripts
+echo apt-get update > update.sh
+echo apt-get upgrade -y >> update.sh
+echo apt-get dist-upgrade -y >> update.sh
+echo apt-get autoremove -y >> update.sh
+echo apt-get autoclean >> update.sh
+chmod +x update.sh
 
 #Install tools
 apt-get install ftp -y
