@@ -26,6 +26,7 @@ apt-get install nfs-common -y
 apt-get install rsh-client -y
 apt-get install bridge-utils -y
 apt-get install cifs-utils -y
+apt-get install hexchat -y
 
 #Remove tools
 apt-get remove python-faraday -y
