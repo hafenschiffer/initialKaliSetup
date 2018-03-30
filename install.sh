@@ -70,7 +70,7 @@ cp -r /var/www/html/* /ftphome/
 msfdb init
 
 #Update nmap scripts
-namp --script-update
+nmap --script-update
 
 #unzip rockyou
 gunzip /usr/share/wordlists/rockyou.txt.gz
