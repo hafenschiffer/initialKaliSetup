@@ -1,5 +1,9 @@
 #!/bin/sh
 #Prepare
+#for docker
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+echo 'deb https://download.docker.com/linux/debian stretch stable' > /etc/apt/sources.list.d/docker.list
+#default preparation
 apt-get update
 apt-get upgrade -y
 apt-get dist-upgrade -y
@@ -27,6 +31,7 @@ apt-get install rsh-client -y
 apt-get install bridge-utils -y
 apt-get install cifs-utils -y
 apt-get install hexchat -y
+apt-get install docker-ce -y
 
 #Remove tools
 apt-get remove python-faraday -y
