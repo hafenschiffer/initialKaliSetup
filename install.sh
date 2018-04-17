@@ -31,6 +31,7 @@ apt-get install rsh-client -y
 apt-get install bridge-utils -y
 apt-get install cifs-utils -y
 apt-get install hexchat -y
+apt-get install gnome-screenshot -y
 apt-get install docker-ce -y
 
 #Remove tools
