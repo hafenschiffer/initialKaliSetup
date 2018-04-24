@@ -33,6 +33,7 @@ apt-get install cifs-utils -y
 apt-get install hexchat -y
 apt-get install gnome-screenshot -y
 apt-get install docker-ce -y
+apt-get install virtualbox -y
 
 #Remove tools
 apt-get remove python-faraday -y
