@@ -63,6 +63,9 @@ systemctl enable postgresql
 #populate some files
 mkdir /var/www/html/linux
 mkdir /var/www/html/win
+cd /var/www/html/win
+cp /usr/share/windows-binaries/nc.exe .
+cp /usr/share/windows-binaries/wget.exe .
 cd /var/www/html/linux
 wget https://raw.githubusercontent.com/sleventyeleven/linuxprivchecker/master/linuxprivchecker.py
 wget https://raw.githubusercontent.com/rebootuser/LinEnum/master/LinEnum.sh
