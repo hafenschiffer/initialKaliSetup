@@ -7,10 +7,11 @@ echo 'deb https://download.docker.com/linux/debian stretch stable' > /etc/apt/so
 apt-get update
 apt-get upgrade -y
 apt-get dist-upgrade -y
-mkdir /root/tools
-mkdir /root/tools/scripts
+mkdir -p /root/tools/scripts
 
 #Create update script
+cd /root/tools
+wget https://gchq.github.io/CyberChef/cyberchef.htm
 cd /root/tools/scripts
 echo apt-get update > update.sh
 echo apt-get upgrade -y >> update.sh
