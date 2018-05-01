@@ -18,6 +18,7 @@ echo apt-get upgrade -y >> update.sh
 echo apt-get dist-upgrade -y >> update.sh
 echo apt-get autoremove -y >> update.sh
 echo apt-get autoclean >> update.sh
+echo apt-get clean >> update.sh
 echo nmap --script-update >> update.sh
 chmod +x update.sh
 
