@@ -37,6 +37,7 @@ apt-get install hexchat -y
 apt-get install gnome-screenshot -y
 apt-get install docker-ce -y
 apt-get install virtualbox -y
+apt-get install metagoofil -y
 
 #Remove tools
 apt-get remove python-faraday -y
