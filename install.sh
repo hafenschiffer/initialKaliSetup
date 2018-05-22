@@ -27,7 +27,7 @@ apt-get install ftp -y
 apt-get install pure-ftpd -y
 apt-get install terminator -y
 apt-get install golang -y
-apt-get install openvas -y
+#apt-get install openvas -y
 apt-get install gobuster -y
 apt-get install nfs-common -y
 apt-get install rsh-client -y
