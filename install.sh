@@ -38,6 +38,7 @@ apt-get install gnome-screenshot -y
 apt-get install docker-ce -y
 apt-get install virtualbox -y
 apt-get install metagoofil -y
+apt-get install bluetooth -y
 
 #Remove tools
 apt-get remove python-faraday -y
@@ -46,6 +47,7 @@ apt-get purge python-faraday -y
 #Git Respounder
 cd /root/tools
 git clone https://github.com/maurosoria/dirsearch
+git clone https://github.com/derv82/wifite2
 git clone https://github.com/codeexpress/respounder
 cd /root/tools/respounder
 go build respounder.go
